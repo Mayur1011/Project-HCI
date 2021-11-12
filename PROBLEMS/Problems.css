@@ -1,0 +1,277 @@
+.navbar-brand {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.navbar-brand:hover {
+  background-image: none !important;
+  color: #ffffff;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: #ffffff;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f7efef;
+  font-weight: bolder;
+}
+.nav-item:hover {
+  color: #ffffff;
+}
+.btn-outline-success {
+  height: 25px;
+  text-align: center;
+  line-height: 10px;
+  color: rgb(255, 153, 0);
+  border-color: rgb(255, 153, 0);
+}
+.btn-outline-success:hover {
+  background-image: none;
+  background-color: rgb(255, 153, 0);
+  border-color: #ffffff;
+}
+.btn-primary {
+  height: 25px;
+  text-align: center;
+  line-height: 10px;
+  background: none;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-image: none;
+}
+.btn-primary:hover {
+  background-image: none;
+  background-color: rgb(255, 255, 255);
+  border-color: #ffffff;
+  color: #000000;
+}
+/* -------------------------------------------------------- Daily Challenge -------------------------------------------------------- */
+.box1 {
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 950px;
+  margin-top: -1010px;
+  height: 200px;
+  width: 360px;
+  background-color: rgb(49, 46, 46);
+  background-size: 400px;
+  border-radius: 10px;
+}
+.box1:hover {
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+.box1 .btn-latest {
+  position: absolute;
+  height: 42px;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fea116;
+  color: black;
+  font-size: 25px;
+  padding: 8px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.box1 .btn-latest:hover {
+  background-color: rgb(49, 46, 46);
+  border-radius: 50%;
+  font-weight: bolder;
+  color: #fea116;
+  box-shadow: 2px 2px 5px 1px #fea116;
+}
+
+/* ----------------------------------------- Top List -----------------------------------------  */
+.box2 {
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 950px;
+  margin-top: -785px;
+  height: 265px;
+  width: 360px;
+  background-color: rgb(49, 46, 46);
+  background-size: 360px;
+  border-radius: 10px;
+}
+.box2:hover {
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+
+/* ----------------------------------------- Top Companies -----------------------------------------  */
+.box3 {
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 950px;
+  margin-top: -490px;
+  height: 306px;
+  width: 360px;
+  background-color: rgb(49, 46, 46);
+  background-size: 360px;
+  border-radius: 10px;
+}
+.box3:hover {
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+.box {
+  text-align: left;
+  padding: 15px;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 230px;
+  border-radius: 7%;
+  z-index: 1;
+}
+
+/* ----------------------------------------- Tutorials + Vedios -------------------------------------------------------*/
+.first {
+  margin-right: 40px;
+  /* box-shadow: 20px 0px 50px #5f5f5f; */
+  box-shadow: 10px -0px 10px 0px #5f5f5f;
+
+  background-image: url("./IMAGES/Data-Structures.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.middle {
+  box-shadow: 10px -0px 10px 0px #5f5f5f;
+  background-image: url("./IMAGES/UnderstandingDP.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.last {
+  margin-left: 40px;
+  /* box-shadow: 20px 0px 50px #5f5f5f; */
+  box-shadow: 10px -0px 10px 0px #5f5f5f;
+
+  background-image: url("./IMAGES/Recursion.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.first:hover,
+.middle:hover,
+.last:hover {
+  box-shadow: 0px -5px 5px -5px #5f5f5f;
+}
+
+/* ---------------- Top Questions --------------------*/
+
+.top-list {
+  color: white;
+  margin-right: 179px;
+  margin-top: -10px;
+  padding: 8px;
+  width: 338px;
+}
+.top-list:hover {
+  /* font-weight: bold; */
+  background-color: rgba(94, 92, 92, 0.267);
+}
+
+/* ---------------------------------RIGHT MID BUTTONS -------------------------------------- */
+
+.btn-alltopics1 {
+  margin: 8px;
+  margin-left: 10px;
+  margin-right: 335px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: #fea116;
+}
+.btn-alltopics1:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+.btn-alltopics2 {
+  margin: -46px;
+  margin-left: 190px;
+  width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+}
+.btn-alltopics2:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+.btn-alltopics3 {
+  margin: 8px;
+  margin-left: 420px;
+  width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+}
+.btn-alltopics3:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+.btn-alltopics4 {
+  margin: -49px;
+  margin-left: 650px;
+  width: 150px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+}
+.btn-alltopics4:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 5px 1px #5f5f5f;
+}
+
+/* ----------------------------------------------------------------- PROBLEM STATEMENTS -----------------------------------------------------------------*/
+.left-table {
+  position: relative;
+  width: 880px;
+  height: 600px;
+  margin-right: 200px;
+}
+.prblm-link {
+  text-decoration: none;
+  color: black;
+}
+.prblm-link:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hoverrow1 {
+  background-color: rgb(238, 238, 238);
+}
+.hoverrow1:hover {
+  background-color: rgb(196, 196, 196);
+}
+.hoverrow:hover {
+  background-color: rgb(196, 196, 196);
+}

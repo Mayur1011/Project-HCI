@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>CodeIt;</title>
+  <!-- jquery -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1a99940ca9.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.scss">
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+  <!-- --------------------------------------------- NAVBAR --------------------------------------------- -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">CodeIt;</a>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../EXPLORE/Explore.html" class="nav-link">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Problems</a>
+          </li>
+          <li class="nav-item">
+            <a href="../CONTESTS/Contests.html" class="nav-link">Contests</a>
+          </li>
+        </ul>
+        <div class="ms-auto">
+          <!-- <button  type="submit">Premium</button> -->
+          <a href="../Premium.html" class="btn btn-outline-success">Premium</a>
+          <a href="../profile page/index.html" class="btn btn-primary">User</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+  <section class="profile-photo">
+    <div class="pr-photo side">
+      <img class="photo" src="profile.png" alt="profile photo" srcset="">
+      <h2 class="text">Atharva Patil</h2>
+      <div class="buttons-pr">
+        <button type="button" class="btn btn-secondary btn-sm edit"> <span><i class="fas fa-user-edit"></i></span>Edit
+          profile</button>
+        <a href="../index.html"><button type="button" class="btn btn-secondary btn-sm sign"> <span><i class="fas fa-sign-out-alt"></i></span>
+          Sign out</button></a>
+      </div>
+    </div>
+
+    <div class="pr-photo side progress">
+      <img class="cr-progress" src="./Complete.png" alt="progress bar" srcset="">
+      <h2 class="up-text">Problems Solved</h2>
+      <div class="buttons-cr">
+        <button type="button" class="btn btn-secondary btn-sm easy">
+          Easy : <br>
+          50/100
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm medium">
+          Medium : <br>
+          50/100
+
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm hard">
+          Hard : <br>
+          50/100
+
+        </button>
+      </div>
+    </div>
+
+    <div class="pr-photo side badge">
+      <img class="badge-im" src="badge.png" alt="progress bar" srcset="">
+      <h2 class="last-text">Badges<button type="button" class="btn btn-secondary btn-sm last-btn">
+          <>
+        </button></h2>
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+  <section class="table-sections">
+    <div class="down">
+      <table class="table left-table">
+        <tbody>
+          <tr class="section-bg">
+            <td class="section-text first">
+              <h6 class="big-text">Contest Attempted</h6>
+            </td>
+            <td><span><i class="fas fa-arrow-circle-right"></i></span></td>
+          </tr>
+          </thead>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text">Points Earned</h6>
+            </td>
+            <td><span><i class="fas fa-arrow-circle-right"></i></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text">Problems Solved</h6>
+            </td>
+            <td><span><i class="fas fa-arrow-circle-right"></i></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text">Your Rating</h6>
+            </td>
+            <td><span><i class="fas fa-arrow-circle-right"></i></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td style="border: 0;" class="section-text last">
+              <h6 class="big-text">Premuim Membership</h6>
+            </td>
+            <td style="border: 0;"><span><i class="fas fa-arrow-circle-right"></i></span></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+
+
+
+    <div class="down side-down">
+      <table class="table side-table">
+        <thead>
+          <tr>
+            <td style="border: 0;" class="heading">Most Recent Submission</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="section-bg">
+            <td class="section-text first">
+              <h6 class="big-text"> 0/1 Knapsack</h6>
+              <h6 class="sub-text"> Few secs ago</h6>
+            </td>
+            <td class="btn-section"><span><button type="button"
+                  class=" correct btn btn-secondary btn-sm sign">Correct</button></span></td>
+          </tr>
+          </thead>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text"> 2 Sum </h6>
+              <h6 class="sub-text"> yesterday</h6>
+            </td>
+            <td class="btn-section"><span><button type="button"
+                  class=" incorrect btn btn-secondary btn-sm sign">Incorrect</button></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text"> Matrix Chain Multiplication </h6>
+              <h6 class="sub-text"> a day ago</h6>
+            </td>
+            <td class="btn-section"><span><button type="button"
+                  class=" correct btn btn-secondary btn-sm sign">Correct</button></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td class="section-text middle">
+              <h6 class="big-text"> Minimum path</h6>
+              <h6 class="sub-text">a day ago</h6>
+            </td>
+            <td class="btn-section"><span><button type="button"
+                  class=" correct btn btn-secondary btn-sm sign">Correct</button></span></td>
+          </tr>
+          <tr class="section-bg">
+            <td style="border: 0;" class="section-text last">
+              <h6 class="big-text"> N Queen</h6>
+              <h6 class="sub-text"> 2 days ago</h6>
+            </td>
+            <td class="btn-section" style="border: 0;"><span><button type="button"
+                  class=" incorrect btn btn-secondary btn-sm sign">Incorrect</button></span></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
